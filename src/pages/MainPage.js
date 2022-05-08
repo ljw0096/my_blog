@@ -1,15 +1,20 @@
-export default function main({ $target }) {
-  const $main = document.createElement('main')
-  $target.appendChild($main)
+import About from '../components/About.js'
+
+export default function MainPage({ $target }) {
+  const $mainPage = document.createElement('main')
+  $target.appendChild($mainPage)
 
   const template = () => `
         <section class="about"></section>
         <aside class="document-list"></aside>
     `
-  const mounted = () => {}
+  const mounted = () => {
+    const $about = $mainPage.querySelector('.about')
+    new About({ $target: $about })
+  }
 
   const render = () => {
-    $main.innerHTML = template()
+    $mainPage.innerHTML = template()
     mounted()
   }
 

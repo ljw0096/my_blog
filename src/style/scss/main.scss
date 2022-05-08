@@ -1,0 +1,13 @@
+.about {
+    &__container {
+        display: flex;
+    }
+    &__image-wrapper {
+        width: 200px;
+        height: 200px;
+    }
+    &__image {
+        width: 100%;
+        height: 100%;
+    }
+}

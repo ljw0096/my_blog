@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ljw0096/my_blog/issues"
   },
-  "homepage": "https://github.com/ljw0096/my_blog#readme"
+  "homepage": "https://github.com/ljw0096/my_blog#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
 }

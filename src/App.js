@@ -1,5 +1,5 @@
-import main from './pages/main.js'
+import MainPage from './pages/MainPage.js'
 
 export default function App({ $app }) {
-  new main({ $target: $app })
+  new MainPage({ $target: $app })
 }

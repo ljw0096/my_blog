@@ -8,7 +8,7 @@ export default function About({ $target }) {
             <img class="about__image" src="./src/assets/Profile.jpg" />
         </div>
         <div class="about__content-wrapper">
-            <h2 class="about__title"> 안녕하세요, 이지원 입니다! </h2>
+        <h2 class="about__title"> 안녕하세요, 이지원 입니다! </h2>
         </div>
     `
 

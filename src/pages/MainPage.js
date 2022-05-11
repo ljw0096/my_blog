@@ -10,7 +10,7 @@ export default function MainPage({ $target }) {
     `
   const mounted = () => {
     const $about = $mainPage.querySelector('.about')
-    new About({ $target: $about })
+    About({ $target: $about })
   }
 
   const render = () => {
